@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: oldlace;
+    font-family: system-ui, sans-serif;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: oldlace;
+    margin: 0;
+}
+
+/* Paragraphs */
+p {
+    color: oldlace;
+}
+
+/* Header */
+#page-title {
+    height: 50px;
+    padding: 0 1rem;
+    display: flex;
+    background-color: #333;
+    color: oldlace;
+}
+
+/* Footer */
+#page-footer {
+    height: 50px;
+    padding: 0 1rem;
+    display: flex;
+    background-color: #333;
+    color: oldlace;
+}
+
+
+/* Map layout */
+#map {
+    height: calc(100vh - 90px); /* 50 header + 40 footer */
+    width: 100%;
+}
+
