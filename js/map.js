@@ -40,14 +40,15 @@ fetch('data/trailposts.geojson')
                 fillOpacity: 0.8
             });
         },
-
+        
         //Add popups 
         onEachFeature: function(feature, layer) {
             const name = feature.properties.name || "Trail Post";
             layer.bindPopup(`<strong>${name}</strong>`);
         }
     }).addTo(trailpostsLayer);
-});
+    })
+    .catch(err => console.error('Error loading trail posts:', err));
 
 //Load line data (trails)
 fetch('data/trails.geojson')
