@@ -30,13 +30,13 @@ This project focused on building an interactive web-based GIS application using 
 ## Repository Structure
     .
     ├── data/
-    │   ├── your_point_layer.geojson
-    │   ├── your_line_layer.geojson
-    │   └── your_polygon_layer.geojson
+    │   ├── parks.geojson
+    │   ├── trailposts.geojson
+    │   └── trails.geojson
     ├── js/
-    │   └── your_js_file.js
+    │   └── map.js
     ├── css/
-    │   └── your_css_file.css
+    │   └── styles.css
     ├── index.html
     ├── package.json
     ├── package-lock.json
