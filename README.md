@@ -1,5 +1,31 @@
-# GIST 604B – WebGIS & Full-Stack Orchestration
-Repository for building an interactive web mapping application using HTML, CSS, JavaScript, and Leaflet.
+# WebGIS & Full-Stack Orchestration
+
+**Student:** Jennifer Todd  
+**Course:** GIST 604B – Open Source GIS  
+**Module:** WebGIS & Full-Stack Orchestration  
+**University of Arizona**  
+
+## Project Description
+This project focused on building an interactive web-based GIS application using client-side web technologies and Leaflet. I created a web map that loads and styles GeoJSON data, adds interactivity such as popups and layer controls, and publishes the final product using GitHub Pages.
+
+## Tools and Technologies
+- HTML, CSS, JavaScript  
+- Leaflet  
+- GeoJSON  
+- Visual Studio Code  
+- Node.js  
+
+## What I Did
+- Set up a local development environment using Visual Studio Code, Node.js, and Git  
+- Built a web map using Leaflet and initialized basemaps and map views  
+- Loaded and styled GeoJSON datasets for display in the browser  
+- Added interactivity including popups and layer controls  
+- Published the completed web map using GitHub Pages
+  
+## How to View / Run
+- Open the live web map using the GitHub Pages link provided in the repository  
+- Alternatively, clone the repository and open the project in Visual Studio Code  
+- Launch a local server and open the index.html file in a browser  
 
 ## Repository Structure
     .
@@ -16,10 +42,3 @@ Repository for building an interactive web mapping application using HTML, CSS, 
     ├── package-lock.json
     ├── .gitignore
     └── README.md
-
-## Notes
-- Replace the placeholder filenames in `data/`, `js/`, and `css/` with your own files.
-- All GeoJSON datasets must be in WGS84 (EPSG:4326) and placed in the `data/` folder.
-- Run `npm install` to install dependencies and `npm start` to launch the local development server.
-- Open `http://localhost:8080` in your browser to preview your map during development.
-- The final web map is published using GitHub Pages.
